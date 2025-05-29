@@ -23,13 +23,6 @@ This beginner-friendly project demonstrates how to apply **Linear Regression** u
 
 ---
 
-## 📷 Preview
-
-![Plot Preview](assets/house_price_plot.png)  
-<sub>Red line: Regression line | Green dot: Predicted price | Blue dots: Actual data</sub>
-
----
-
 ## ⚙️ How to Run It
 
 1. **Clone this repository:**

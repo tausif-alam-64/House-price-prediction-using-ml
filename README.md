@@ -28,5 +28,5 @@ This beginner-friendly project demonstrates how to apply **Linear Regression** u
 1. **Clone this repository:**
 
    ```bash
-   git clone https://github.com/yourusername/house-price-prediction.git
+   git clone https://github.com/tausif-alam-64/house-price-prediction.git
    cd house-price-prediction

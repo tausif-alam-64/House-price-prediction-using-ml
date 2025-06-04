@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
 
 data = {
     "Area": [1000, 1500, 2000, 2500],
@@ -14,6 +15,10 @@ y = df["Price"] # keeping as 1d, representing the target value
 
 model = LinearRegression() 
 model.fit(x,y)  # Train model using our dataset
+
+y_pred = model.predict(x)
+accuracy = r2_score(y, y_pred)
+print(f"Model R² Score (Accuracy): {accuracy:.4f}")
 
 area_range = np.linspace(df['Area'].min(), df['Area'].max(), 100).reshape(-1,1)
 price_pridictions = model.predict(area_range)
